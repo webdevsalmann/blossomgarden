@@ -22,8 +22,8 @@ export default function Home() {
       <SpecialOffers />
       <ShopOverview />
       <Testimonial />
-      <Blog />
-      <About />
+      {/* <Blog /> */}
+      {/* <About /> */}
       <FAQ />
       <SeasonalTrends />
       {/* <Contact /> */}

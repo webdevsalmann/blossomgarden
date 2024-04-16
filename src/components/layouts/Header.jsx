@@ -20,7 +20,10 @@ export default function Header() {
 
         {/* Logo */}
         <Link className="w-fit flex-center" href="/">
-          <Ilogo className="size-14" />
+          <Ilogo className="mr-2 size-14 text-primary" />
+          <h1 className="text-lg leading-4 font-semibold">
+            Blossom <br /> Garden
+          </h1>
         </Link>
 
         {/* Hamburger menu */}

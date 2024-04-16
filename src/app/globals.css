@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -87,7 +88,7 @@
 
   section,
   .section {
-    @apply relative mx-auto container p-6 sm:py-12 md:p-16 lg:p-20;
+    @apply relative mx-auto container p-6 sm:py-12 md:p-16 lg:p-20 overflow-hidden;
   }
 
   .flex-center {

@@ -98,3 +98,157 @@ export const faqs = [
     answer: "You can contact our customer support team via email at support@rkfashion.com or by phone at +123-456-7890. We're here to assist you with any questions or concerns you may have."
   }
 ];
+
+export const dressCategories = [
+  {
+    id: "dressCategorySarees",
+    title: "Sarees",
+    value: "Sarees",
+  },
+  {
+    id: "dressCategoryLehengaCholis",
+    title: "Lehenga Cholis",
+    value: "Lehenga Cholis",
+  },
+  {
+    id: "dressCategoryAnarkaliSuits",
+    title: "Anarkali Suits",
+    value: "Anarkali Suits",
+  },
+  {
+    id: "dressCategorySalwarKameez",
+    title: "Salwar Kameez",
+    value: "Salwar Kameez",
+  },
+  {
+    id: "dressCategoryKurtis",
+    title: "Kurtis",
+    value: "Kurtis",
+  },
+  {
+    id: "dressCategoryGowns",
+    title: "Gowns",
+    value: "Gowns",
+  },
+  {
+    id: "dressCategoryIndoWesternDresses",
+    title: "Indo-Western Dresses",
+    value: "Indo-Western Dresses",
+  },
+  {
+    id: "dressCategoryAccessories",
+    title: "Accessories",
+    value: "Accessories",
+  }
+];
+
+export const dressSizes = [
+  {
+    id: "dressSizeXS",
+    title: "XS (Extra Small)",
+    value: "XS"
+  },
+  {
+    id: "dressSizeS",
+    title: "S (Small)",
+    value: "S"
+  },
+  {
+    id: "dressSizeM",
+    title: "M (Medium)",
+    value: "M"
+  },
+  {
+    id: "dressSizeL",
+    title: "L (Large)",
+    value: "L"
+  },
+  {
+    id: "dressSizeXL",
+    title: "XL (Extra Large)",
+    value: "XL"
+  },
+  {
+    id: "dressSizeXXL",
+    title: "XXL (Double Extra Large)",
+    value: "XXL"
+  },
+  {
+    id: "dressSizeXXXL",
+    title: "XXXL (Triple Extra Large)",
+    value: "XXXL"
+  },
+];
+
+export const dressColors = [
+  { id: "colorRed", title: "Red", value: "Red" },
+  { id: "colorBlue", title: "Blue", value: "Blue" },
+  { id: "colorGreen", title: "Green", value: "Green" },
+  { id: "colorYellow", title: "Yellow", value: "Yellow" },
+  { id: "colorPink", title: "Pink", value: "Pink" },
+  { id: "colorPurple", title: "Purple", value: "Purple" },
+  { id: "colorOrange", title: "Orange", value: "Orange" },
+  { id: "colorBlack", title: "Black", value: "Black" },
+  { id: "colorWhite", title: "White", value: "White" },
+  { id: "colorGray", title: "Gray", value: "Gray" },
+  { id: "colorBrown", title: "Brown", value: "Brown" },
+  { id: "colorSilver", title: "Silver", value: "Silver" },
+  { id: "colorGold", title: "Gold", value: "Gold" },
+  { id: "colorMaroon", title: "Maroon", value: "Maroon" },
+  { id: "colorNavy", title: "Navy", value: "Navy" },
+  { id: "colorTurquoise", title: "Turquoise", value: "Turquoise" },
+  { id: "colorLavender", title: "Lavender", value: "Lavender" },
+  { id: "colorTeal", title: "Teal", value: "Teal" },
+  { id: "colorCoral", title: "Coral", value: "Coral" },
+  { id: "colorBeige", title: "Beige", value: "Beige" },
+  { id: "colorOlive", title: "Olive", value: "Olive" },
+  { id: "colorMagenta", title: "Magenta", value: "Magenta" },
+  { id: "colorViolet", title: "Violet", value: "Violet" },
+  { id: "colorIndigo", title: "Indigo", value: "Indigo" },
+  { id: "colorPeach", title: "Peach", value: "Peach" },
+  { id: "colorSalmon", title: "Salmon", value: "Salmon" },
+  { id: "colorTan", title: "Tan", value: "Tan" },
+  { id: "colorCyan", title: "Cyan", value: "Cyan" },
+  { id: "colorAqua", title: "Aqua", value: "Aqua" },
+  { id: "colorLime", title: "Lime", value: "Lime" },
+  { id: "colorKhaki", title: "Khaki", value: "Khaki" },
+];
+
+
+// ==========================================
+// // For Sanity
+// ==========================================
+export const dressCategoriesForSanity = [
+  {
+    title: "Sarees",
+    value: "Sarees"
+  },
+  {
+    title: "Lehenga Cholis",
+    value: "Lehenga Cholis"
+  },
+  {
+    title: "Anarkali Suits"
+    , value: "Anarkali Suits",
+  },
+  {
+    title: "Salwar Kameez",
+    value: "Salwar Kameez"
+  },
+  {
+    title: "Kurtis",
+    value: "Kurtis"
+  },
+  {
+    title: "Gowns",
+    value: "Gowns",
+  },
+  {
+    title: "Indo-Western Dresses",
+    value: "Indo-Western Dresses"
+  },
+  {
+    title: "Accessories",
+    value: "Accessories",
+  }
+];

@@ -15,7 +15,7 @@ export default function FeaturedCard() {
                 />
             </div>
 
-            <div className="p-xs">
+            <div className="p-xs flex flex-col items-center text-center">
                 <div className="text-xl font-semibold">Name</div>
                 <div className="line-clamp-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita consequatur sed provident porro dolore quia accusantium molestias dolor maxime quis, harum fugit ad obcaecati quos repellat itaque similique magni iusto possimus culpa deserunt.</div>
                 <Link className={`${buttonVariants({ variant: "outline" })} mt-xs`} href="/shop">

@@ -35,18 +35,18 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="leading-8 text-muted-foreground hover:text-primary hover:underline" href="/about">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link className="leading-8 text-muted-foreground hover:text-primary hover:underline" href="/services">
-                    Services
+                  <Link className="leading-8 text-muted-foreground hover:text-primary hover:underline" href="/shop">
+                    shop
                   </Link>
                 </li>
                 <li>
                   <Link className="leading-8 text-muted-foreground hover:text-primary hover:underline" href="/contact">
-                    Contact Us
+                    collections
+                  </Link>
+                </li>
+                <li>
+                  <Link className="leading-8 text-muted-foreground hover:text-primary hover:underline" href="/about">
+                    About Us
                   </Link>
                 </li>
               </ul>

@@ -6,7 +6,7 @@ export default function ShopOverview() {
   return (
     <section>
       {/* Heading */}
-      <h2>Shop Now</h2>
+      <h2>Our Shop Listings</h2>
 
       {/* Content Block */}
       <div className="my-block grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-base">

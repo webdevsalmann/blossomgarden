@@ -17,7 +17,7 @@ export default function Hero() {
 
             <div className="absolute inset-0 size-full -z-10">
                 <Image
-                    className="size-full object-cover object-center"
+                    className="size-full object-cover  object-right sm:object-center"
                     width={800}
                     height={450}
                     src="/images/common/5.png"

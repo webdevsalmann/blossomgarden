@@ -1,6 +1,9 @@
+import Shop from "./Shop";
 
 export default function page() {
   return (
-    <main>page</main>
+    <main>
+      <Shop />
+    </main>
   )
 }

@@ -6,7 +6,7 @@ const builder = imageUrlBuilder(client);
 class SanityService {
     async getAllProducts(query) {
         try {
-            return await client.fetch(`*[_type=="property"] ${query} `);
+            return await client.fetch(`*[_type=="product"] ${ query || ""} `);
         } catch (error) {
             console.error("Error fetching All products: ", error);
             throw error;
@@ -15,7 +15,7 @@ class SanityService {
 
     async getProductById(id, query) {
         try {
-            return await client.fetch(`*[_type=="product" && _id == "${id}"] ${query} `);
+            return await client.fetch(`*[_type=="product" && _id == "${id}"] ${ query || ""} `);
         } catch (error) {
             console.error("Error fetching product by ID: ", error);
             throw error;
@@ -24,7 +24,7 @@ class SanityService {
 
     async getPropertyBySlug(slug, query) {
         try {
-            return await client.fetch(`*[_type=="product" && slug.current == "${slug}"] ${query} `);
+            return await client.fetch(`*[_type=="product" && slug.current == "${slug}"] ${ query || ""} `);
         } catch (error) {
             console.error("Error fetching product by Slug:", error);
             throw error;

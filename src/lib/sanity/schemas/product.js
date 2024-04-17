@@ -58,6 +58,7 @@ export const product = defineType({
             title: "Discount Price",
             name: "discountPrice",
             type: "number",
+            initialValue: 0
         },
         // Categories
         {

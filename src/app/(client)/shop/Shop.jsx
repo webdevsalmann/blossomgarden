@@ -2,7 +2,7 @@ import ProductSorting from "./ProductSorting";
 import ShopFilter from "./ShopFilter";
 import ShopProducts from "./ShopProducts";
 
-export default function Shop() {
+export default function Shop({ products }) {
     return (
         <section>
             {/* Heading */}
@@ -17,7 +17,7 @@ export default function Shop() {
                 <ShopFilter className="md:col-span-2" />
 
                 {/* Products */}
-                <ShopProducts className="md:col-span-6" />
+                <ShopProducts className="md:col-span-6" products={products} />
             </div>
         </section>
     )
